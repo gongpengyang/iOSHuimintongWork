@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+
+target 'iOSHuimintongWork' do
+  
+  pod 'CYLTabBarController' #tabbar
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'MJRefresh','3.2.0' #刷新
+  pod 'Masonry', '~> 1.0.0' #布局
+  pod 'IQKeyboardManager','3.3.7' #自动适配键盘textField 避免遮挡
+  pod "SDWebImage", '~> 3.7.5' #加载图片
+  pod 'SVProgressHUD', '~> 2.1.2' #loading
+  #pod 'MJExtension','3.2.2'  #Json 解析
+  pod 'YYCache' #缓存
+  pod 'YYModel' #数据解析
+end
